@@ -99,3 +99,12 @@ The fee structure doesn't follow particular algorithm and it is possible that sa
 19000 PLN: 760 PLN
 20000 PLN: 800 PLN
 ```
+
+
+# HOW TO START INSTRUCTIONS
+
+#### Run commands:
+1. `docker compose up -d`
+2. `docker exec -it recuitment-task-fee_calculator_php-1 bash`
+
+#### To stop container run command `docker compose down`
