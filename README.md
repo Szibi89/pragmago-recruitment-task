@@ -101,10 +101,12 @@ The fee structure doesn't follow particular algorithm and it is possible that sa
 ```
 
 
-# HOW TO START INSTRUCTIONS
+# HOW TO USE INSTRUCTIONS
 
-#### Run commands:
-1. `docker compose up -d`
-2. `docker exec -it recuitment-task-fee_calculator_php-1 bash`
+To build and run container, run command: `docker compose up -d`
 
-#### To stop container run command `docker compose down`
+To enter inside docker container run command: `docker exec -it recuitment-task-fee_calculator_php-1 bash`
+
+To run tests run command `./vendor/bin/pest` in docker container bash
+
+To stop container run command `docker compose down`
