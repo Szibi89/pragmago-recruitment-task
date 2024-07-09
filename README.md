@@ -105,8 +105,10 @@ The fee structure doesn't follow particular algorithm and it is possible that sa
 
 To build and run container, run command: `docker compose up -d`
 
-To enter inside docker container run command: `docker exec -it recuitment-task-fee_calculator_php-1 bash`
+To enter inside docker container, run command: `docker exec -it recuitment-task-fee_calculator_php-1 bash`
 
-To run tests run command `./vendor/bin/pest` in docker container bash
+To run tests, run command `./vendor/bin/pest` in docker container bash
 
-To stop container run command `docker compose down`
+To run application in command line use command: `php src/LoanFeeCalculator.php` in docker container bash
+
+To stop container, run command `docker compose down`

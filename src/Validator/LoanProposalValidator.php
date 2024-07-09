@@ -11,8 +11,8 @@ use PragmaGoTech\Interview\Model\LoanProposal;
 
 class LoanProposalValidator
 {
-    const MIN_LOAN_AMOUNT = 1000;
-    const MAX_LOAN_AMOUNT = 20000;
+    const MIN_LOAN_AMOUNT = 100000;
+    const MAX_LOAN_AMOUNT = 2000000;
 
     /**
      * @throws Exception
