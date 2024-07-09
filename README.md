@@ -109,6 +109,6 @@ To enter inside docker container, run command: `docker exec -it recuitment-task-
 
 To run tests, run command `./vendor/bin/pest` in docker container bash
 
-To run application in command line use command: `php src/LoanFeeCalculator.php` in docker container bash
+To run application in command line use command: `php src/LoanFeeCalculator.php` in docker container bash (before that, uncomment code in LoanFeeCalculator.php file)
 
 To stop container, run command `docker compose down`
